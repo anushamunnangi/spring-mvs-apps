@@ -24,8 +24,8 @@ public class Attendancecontroller {
 	@Autowired
 	 private AttendanceRepository attendanceRepository;
 	
-/*	@Autowired
-	private AttenceService attendanceService;*/
+	@Autowired
+	private AttenceService attendanceService;
 	
 	@PostMapping("/addemployeeattendance")
 	@Produces(MediaType.APPLICATION_JSON)
